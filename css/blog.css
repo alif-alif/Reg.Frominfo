@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    }
+
+    /* Add a gray background color with some padding */
+    body {
+    font-family: 'Titillium Web', sans-serif;
+    text-rendering: optimizeLegibility;
+    padding: 0px;
+    background:#CAF1DE;
+    border-radius: 50px;
+    }
+
+    /* Header/Blog Title */
+    .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background:#3FBB93;
+    color: white;
+    }
+
+    /* Create two unequal columns that floats next to each other */
+    /* Left column */
+    .leftcolumn_blog {   
+    float: left;
+    width: 75%;
+    }
+
+    /* Right column */
+    .rightcolumn_blog {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+    }
+
+    /* Fake image 
+    .dec_img {
+    background-color: #aaa;
+    width: 50%;
+    padding: 5px;
+    height: 50px;
+    }
+    
+*/  #dec_img_2
+
+{
+    background-color:white;
+    width: 100%;
+    padding: 5px;
+    height: 200px;
+    }
+
+
+    #dec_img_1 {
+        background-color: white;
+        width: 100%;
+        padding: 5px;
+        height: 200px;
+        }
+    
+    #dec_img_3
+     {
+            background-color:white;
+            width: 100%;
+            padding: 5px;
+            height: 200px;
+            }
+
+    /* Add a card_blog effect for articles */
+    .card_blog {
+    background-color:white;
+    padding: 10px;
+    margin-top: 20px;
+    }
+
+    /* Clear floats after the columns */
+    .row_img:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+    /* Footer 
+    .footer {
+    padding: 20px;
+    text-align: center;
+    background:yellow;
+    margin-top: 20px;
+    }
+*/
+
+/* *************************** */
+/* footer section */
+/* *************************** */
+
+.footer-section {
+    background: #E1F8DC;
+    padding: 0.5rem 0;
+    text-align: center;
+    border-top: 3rem solid rgba (255,255,255,0.5);
+    color: black;
+}
+
+.footer-section li {
+    display: inline-block;
+    margin: 0 2rem
+
+}
+
+.footer-section li a{
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.footer-section li a:hover {
+    color: #30bae7;
+}
+
+
+
+
+    /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 800px) {
+    .leftcolumn_blog, .rightcolumn_blog {   
+        width: 100%;
+        padding: 0;
+    }
+    }

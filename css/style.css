@@ -1,0 +1,274 @@
+/* *************************** */
+/* Basic Setup */
+/* *************************** */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+html { 
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    
+    font-family: 'Titillium Web', sans-serif;
+    text-rendering: optimizeLegibility;
+  
+}
+
+ul li {
+    list-style: none;
+}
+
+/* Heading */
+
+h1 {
+    font-size: 3.5rem;
+    color: #fff;
+    
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+    visibility: hidden;
+}
+
+header {
+
+    background:linear-gradient(rgba(77,143,142,0.9), rgba(77,143,142,0.9)),url(/images/back.jpg);
+    height: 85vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    text-align: center;
+    
+ 
+    
+    
+}
+
+
+.main-nav .logo {
+    height: 3.5rem;
+    width: auto;
+    margin-left: -65rem ;
+    float: left;
+    margin-top: .3rem;
+    top: 1rem;
+    position: relative;
+
+}
+
+
+.head-line h1 {
+    font-size: 3rem;
+    text-transform: lowercase;
+    letter-spacing: .2rem;
+    font-weight: 600;
+    padding-top: 130px;
+    margin-bottom: 2rem;
+    color: #ffff;
+    text-align: center;
+}
+
+
+.head-line h1::before {
+    content: "";
+    display: block;
+    height: 1rem;
+    background:#3FBB93;
+    width: 8.5rem;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+/* Mani navication */
+
+.main-nav  {
+    float: right;
+    margin-top: 4rem;
+    margin-right: 0rem;
+    background:rgba(16, 85, 82, 0.5);
+    width: 100%;
+    text-align: center;
+    padding-left: 60rem;
+    height: 7rem;
+    
+
+    
+    
+}
+.main-nav li {
+    display: inline-block;
+    padding-right: 1rem;
+    margin-left: 5rem;
+   
+
+    
+}
+
+.main-nav li:first-child {
+    margin-left: 0;
+    
+}
+
+.main-nav a:link,
+.main-nav a:visited {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: rgba(100, 58, 121, 0);
+    border-radius: .3rem;
+    padding: .6rem 1rem;
+    display: inline-block;
+    font-size: 1.6rem;
+    transition: .3s;
+    
+    
+}
+
+.main-nav li:hover a:link,
+.main-nav li:hover a:visited {
+
+ /*  background: rgba(100, 58, 121, 1); */
+
+ background: #41C498;
+  
+}
+
+/* Sticky navication */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(77,143,142,0.9);
+    padding: 1rem 0;
+    box-shadow: 0 .2rem .5rem rgba(77,143,142,0.9);
+    transition: all 0.5s;
+  
+
+}
+
+.sticky .logo {
+    margin-top: 1.5;
+}
+
+.sticky .main-nav {
+    margin-top: .3rem;
+    transition: all 0.5s;
+    
+}
+
+/* *************************** */
+/*  form Setup */
+/* *************************** */
+
+/*
+.form-section {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 5px 8px white, 10px 10px 8px white, 15px 15px 8px white;
+} 
+*/
+
+.form-section {
+    width: 100rem;
+    margin: -15rem auto 0;
+    background: #fff;
+    padding: 4rem;
+    box-sizing: border-box;
+    box-shadow: white;
+    height: 78rem;
+    position: relative;
+    box-shadow: 0 0 2rem rgb(204, 199, 199);
+    box-sizing: border-box;
+    border-radius: 2%;
+    padding-left: 15rem;
+    z-index : 1;
+ 
+}
+
+
+.form-design   h2 {
+    font-weight: 800;
+    font-display: bold;
+    font-size: 2.4rem;
+    font: lighter;
+}
+
+.form-design h2::after {
+    content: "";
+    display: block;
+    height: .5rem;
+    background:#3FBB93;
+    width: 12.5rem;
+    margin-left: 0rem;
+    margin-top: .5rem;
+}
+
+.form-design .label {
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+
+
+/* button design */
+
+
+.form-design .input {
+    margin: 1.5rem 0 0;
+    width: 50%;
+    padding: 2rem;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    border-radius:.5rem;
+    overflow: hidden;
+}
+
+
+button.sub-button {
+    background-color: #4CAF50;
+    color:white;
+    padding: 10px 16px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    opacity: 0.9;
+    font-weight: 600;
+    border-radius: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+/* img setup */
+
+.side-img {
+    float: right;
+    margin-top: -52rem;
+    width: 40%;
+    height: 5rem;
+}
+
+div.below-img  {
+    width: 100%;
+    padding-left: 50rem;
+    
+}
+

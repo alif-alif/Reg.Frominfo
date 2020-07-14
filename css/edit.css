@@ -1,0 +1,302 @@
+/* *************************** */
+/* Basic Setup */
+/* *************************** */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+html { 
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    
+    font-family: 'Titillium Web', sans-serif;
+    text-rendering: optimizeLegibility;
+  
+}
+
+
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+    visibility: hidden;
+}
+
+
+/* *************************** */
+/*  form Setup */
+/* *************************** */
+
+/*
+.form-section {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 5px 8px white, 10px 10px 8px white, 15px 15px 8px white;
+} 
+*/
+
+.form-section {
+    width: 90rem;
+    margin: -15rem auto 0;
+    background: #fff;
+    padding: 2rem;
+    box-sizing: border-box;
+    box-shadow: white;
+    height: -50rem;
+    position: relative;
+    box-shadow: 0 0 2rem rgb(204, 199, 199);
+    box-sizing: border-box;
+    border-radius: 2%;
+    padding-left: 15rem;
+ 
+}
+
+
+.form-design   h2 {
+    font-weight: 800;
+    font-display: bold;
+    font-size: 2rem;
+    font: lighter;
+	top: .5rem;
+}
+
+.form-design h2::after {
+    content: "";
+    display: block;
+    height: .5rem;
+    background:#3FBB93;
+    width: 12.5rem;
+    margin-left: 0rem;
+    margin-top: .3rem;
+}
+
+.form-design .label {
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+
+
+/* button design */
+
+
+.form-design .input {
+    margin: 1.5rem 0 0;
+    width: 50%;
+    padding: 1rem;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    border-radius:.5rem;
+    overflow: hidden;
+}
+
+
+button.edit_Button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 16px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    opacity: 0.9;
+    font-weight: 600;
+    border-radius: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+
+
+/* img setup */
+
+.side-img {
+    float: right;
+    margin-top: -52rem;
+    width: 40%;
+    height: 5rem;
+}
+
+
+/* contact-section */
+
+
+.row {
+    max-width: 114rem;
+    margin: 0 auto;
+  
+}
+
+.contact-section {
+    background:linear-gradient(rgba(60,84,153,0.9), rgba(60,84,153,0.9)),
+    url(../img/contact-bg.jpg);
+    
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    
+}
+
+
+.contact-section .little-description {
+    color: #ffff;
+}
+
+.contact-section form {
+    margin-top: 5rem;
+    width: 70%;
+    margin-left: 15%;
+    
+}
+
+/* button */
+.btn:link,
+.btn:visited,
+.btn {
+    background: #3333;
+    border-bottom: .2rem solid #ffff;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1.5rem 6rem;
+    border-radius: .3rem;
+    display: inline-block;
+    margin-top: 5.5rem;
+    font-size: 1.6rem;
+}
+
+.contact-section h2 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: .4rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    color: #ffff;
+    text-align: center;
+}
+
+
+.contact-section h2::after {
+    content: "";
+    display: block;
+    height: .5rem;
+    background:#3FBB93;
+    width: 12.5rem;
+    margin-left: 50rem;
+    margin-top: .5rem;
+}
+
+
+.little-description {
+    font-size: 1.8rem;
+    width: 60%;
+    margin-left: 20%;
+    line-height: 3rem;
+}
+
+
+.contact-section .little-description {
+    color: #ffff;
+}
+
+.contact-section form {
+    margin-top: 5rem;
+    width: 70%;
+    margin-left: 15%;
+    
+}
+
+.contact-section input[type="text"],
+.contact-section input[type="email"],
+.contact-section textarea {
+    background: #273a71;
+    border: 1rem solid #273a71;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    font-size: 1.8rem;
+    margin: .5rem 0;
+    color: #ffff;
+    outline: none;
+
+}
+
+.contact-section input[type="text"],
+.contact-section input[type="email"] {
+    margin-right: 16.5rem;
+    background: #273a71;
+    fill: #273a71 ;
+    
+
+}
+
+.contact-section textarea {
+    height: 20rem;
+    color: #ffff;
+}
+
+
+.contact-section  form ::placeholder {
+    color: #ffff;
+    opacity: 1;
+    
+}
+
+.contact-section .btn-submit {
+    border: 0;
+    border-bottom: .3rem solid #299ec5;
+    background: #3FBB93;
+    text-align: center;
+    outline: none;
+    padding: 1rem;
+    margin-bottom: 3rem;
+    border-radius: 5rem;
+}
+
+.contact-section .btn-submit:hover {
+    cursor: pointer;
+}
+
+/* *************************** */
+/* footer section */
+/* *************************** */
+
+.footer-section {
+    background: #344b8e;
+    padding: 3rem 0;
+    text-align: center;
+    border-top: 1rem solid rgba (255,255,255,0.5);
+}
+
+.footer-section li {
+    display: inline-block;
+    margin: 0 2rem;
+
+}
+
+.footer-section li a{
+    color: #ffff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 2.4rem;
+}
+.footer-section li a:hover {
+    color: #30bae7;
+}
+
